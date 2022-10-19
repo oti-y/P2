@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Register test]">
+  <test thread-count="5" verbose="0" name="Register user(failed)">
+    <classes>
+      <class name="com.project2.TestRegistration">
+        <methods>
+          <include name="testUserDaoInsertPositive"/>
+        </methods>
+      </class> <!-- com.project2.TestRegistration -->
+    </classes>
+  </test> <!-- Register user(failed) -->
+</suite> <!-- Failed suite [Register test] -->

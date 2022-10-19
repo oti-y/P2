@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Testing Mocks Suite">
+
+    <test name="Mocking creating user in Database">
+        <classes>
+            <class name="com.project2.TestRegistration"/>
+        </classes>
+    </test>
+
+</suite>

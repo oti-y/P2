@@ -1,0 +1,7 @@
+<suite name="User test">
+    <test name="User user">
+        <classes>
+            <class name="com.project2.UserServiceTest" />
+        </classes>
+    </test>
+</suite>
